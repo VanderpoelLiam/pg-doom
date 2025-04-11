@@ -41,8 +41,6 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/VanderpoelLiam/pg-doom
-    - icon: fontawesome/brands/python
-      link: https://pypi.org/project/pg-doom
 
 markdown_extensions:
   - toc:
