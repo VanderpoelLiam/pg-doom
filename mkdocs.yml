@@ -5,7 +5,6 @@ site_description: Training Doom agents with policy gradients using visual inputs
 site_author: Liam Vanderpoel
 edit_uri: edit/main/docs/
 repo_name: VanderpoelLiam/pg-doom
-copyright: Maintained by <a href="https://VanderpoelLiam.com">VanderpoelLiam</a>.
 
 nav:
   - Home: index.md
