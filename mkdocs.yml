@@ -1,0 +1,52 @@
+site_name: pg-doom
+repo_url: https://github.com/VanderpoelLiam/pg-doom
+site_url: https://VanderpoelLiam.github.io/pg-doom
+site_description: Training Doom agents with policy gradients using visual inputs to learn optimal gameplay strategies.
+site_author: Liam Vanderpoel
+edit_uri: edit/main/docs/
+repo_name: VanderpoelLiam/pg-doom
+copyright: Maintained by <a href="https://VanderpoelLiam.com">VanderpoelLiam</a>.
+
+nav:
+  - Home: index.md
+  - Modules: modules.md
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: ["src/pg_doom"]
+theme:
+  name: material
+  feature:
+    tabs: true
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/VanderpoelLiam/pg-doom
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/pg-doom
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
